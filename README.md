@@ -7,4 +7,4 @@ Repositorio inicial de una plataforma web para apoyar la toma de decisiones púb
 ## Documentos rectores
 
 - [`PROJECT_BIBLE.md`](PROJECT_BIBLE.md): visión, alcance, principios y reglas permanentes del proyecto.
-- [`docs/OPEN_DATA_POLICY.md`](docs/OPEN_DATA_POLICY.md): política Open Data First y criterios de admisión de fuentes.
+- [`docs/POLITICA_DE_DATOS_ABIERTOS.md`](docs/POLITICA_DE_DATOS_ABIERTOS.md): política de datos abiertos y criterios de admisión de fuentes.
