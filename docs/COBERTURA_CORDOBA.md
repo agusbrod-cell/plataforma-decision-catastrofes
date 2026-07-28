@@ -6,11 +6,11 @@
 
 ## Principio de apertura permanente
 
-Ningún inventario de datos abiertos puede considerarse definitivamente cerrado. Los organismos crean, modifican, retiran o vuelven a publicar datasets, y pueden existir recursos no indexados o todavía no localizados.
+Ningún inventario de datos abiertos puede considerarse definitivamente cerrado. Los organismos crean, modifican, retiran o vuelven a publicar conjuntos de datos, y pueden existir recursos no indexados o todavía no localizados.
 
 Por ello, la cobertura de Córdoba representa la mejor estimación reproducible del estado del conocimiento en una fecha determinada. No constituye una afirmación de exhaustividad absoluta.
 
-La auditoría permanece abierta a nuevas fuentes, correcciones, cambios de licencia, actualización de metadatos, nuevos endpoints y contribuciones de la comunidad.
+La auditoría permanece abierta a nuevas fuentes, correcciones, cambios de licencia, actualización de metadatos, nuevos puntos de acceso y contribuciones de la comunidad.
 
 ## Universo de referencia
 
@@ -25,7 +25,7 @@ La cobertura se mide sobre un universo institucional definido y versionado:
 ## Estados
 
 - **VERDE-PORTAL:** infraestructura oficial y anónima; cada capa requiere auditoría individual.
-- **VERDE-DATO:** dataset con acceso anónimo, apertura jurídica, metadatos, autoridad, fecha y funcionamiento verificados.
+- **VERDE-DATO:** conjunto de datos con acceso anónimo, apertura jurídica, metadatos, autoridad, fecha y funcionamiento verificados.
 - **VERDE-DATO CONDICIONAL:** cumple gran parte de los requisitos, pero conserva una condición explícita pendiente.
 - **AMARILLO:** falta comprobar una condición material.
 - **ROJO:** acceso o reutilización incompatibles, o información sensible.
@@ -34,7 +34,7 @@ La cobertura se mide sobre un universo institucional definido y versionado:
 
 ## Índice de Cobertura Institucional (ICI)
 
-El ICI mide la proporción del universo institucional definido que fue auditada de manera reproducible. No mide la cantidad absoluta de datasets existentes.
+El ICI mide la proporción del universo institucional definido que fue auditada de manera reproducible. No mide la cantidad absoluta de conjuntos de datos existentes.
 
 Una unidad se considera auditada cuando fue buscada en fuentes oficiales, sus productos fueron registrados y clasificados, sus brechas quedaron documentadas y se registró la fecha de revisión.
 
@@ -50,7 +50,7 @@ El Nivel 5 no equivale a conocimiento absoluto ni al cierre del catálogo.
 
 ## Índice de Apertura (IA)
 
-El IA evaluará acceso anónimo, licencia abierta, descarga o geoservicio, metadatos, productor, fecha, versión, formato reutilizable, derivados permitidos, estabilidad y documentación metodológica.
+El IA evaluará acceso anónimo, licencia abierta, descarga o geoservicio, metadatos, productor, fecha, versión, formato reutilizable, permiso para productos derivados, estabilidad y documentación metodológica.
 
 No se publicará un porcentaje hasta contar con una matriz maestra y denominadores verificables.
 
@@ -75,7 +75,7 @@ Publicar una versión congela un estado reproducible del conocimiento, pero no c
 
 Córdoba dispone de una base madura a través de IDECOR y Mapas Córdoba. Ya se consolidaron cartografía, jurisdicciones, catastro, incendios, FWI/FFMC/ISI, riesgo local, hidrografía, centros de salud, Bomberos Voluntarios, áreas protegidas, regiones naturales, normativas urbanas, IDECOR Ciudades y el nodo municipal de Córdoba.
 
-Persisten brechas en APRHI y OHMC, capacidad sanitaria operativa, vialidad y transitabilidad, refugios, servicios críticos, OTBN, auditoría individual de los 427 gobiernos locales y datasets científicos de UNC, CONICET, INTA, INA-CIRSA e Instituto Gulich.
+Persisten brechas en APRHI y OHMC, capacidad sanitaria operativa, vialidad y transitabilidad, refugios, servicios críticos, OTBN, auditoría individual de los 427 gobiernos locales y conjuntos de datos científicos de UNC, CONICET, INTA, INA-CIRSA e Instituto Gulich.
 
 Por ello, el estado correcto es **cobertura institucional amplia y abierta por diseño**, no exhaustividad absoluta.
 
@@ -88,7 +88,7 @@ Por ello, el estado correcto es **cobertura institucional amplia y abierta por d
 
 ## Próximo paso
 
-Crear una matriz maestra legible por máquina con una fila por organismo o dataset y campos para estado, licencia, acceso, descarga, OGC/API, productor, fecha, metadatos, evidencia, última revisión y brecha. Esa matriz será la fuente de verdad para calcular el ICI y el IA.
+Crear una matriz maestra legible por máquina con una fila por organismo o conjunto de datos y campos para estado, licencia, acceso, descarga, OGC/API, productor, fecha, metadatos, evidencia, última revisión y brecha. Esa matriz será la fuente de verdad para calcular el ICI y el IA.
 
 ## Compromiso científico
 
