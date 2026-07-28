@@ -1,6 +1,6 @@
 # Plataforma de Decisión ante Catástrofes
 
-Repositorio open source para apoyar la toma de decisiones públicas ante catástrofes mediante datos abiertos, información geoespacial, evidencia técnica y priorización socioambiental.
+Repositorio de código abierto para apoyar la toma de decisiones públicas ante catástrofes mediante datos abiertos, información geoespacial, evidencia técnica y priorización socioambiental.
 
 ## Prioridad territorial
 
@@ -8,7 +8,7 @@ Repositorio open source para apoyar la toma de decisiones públicas ante catást
 2. Argentina.
 3. Fuentes internacionales complementarias.
 
-## Córdoba Open Data
+## Datos Abiertos de Córdoba
 
 La auditoría provincial se publica como una cobertura institucional amplia, reproducible y abierta por diseño. No se afirma una exhaustividad absoluta: el universo de fuentes cambia y la revisión permanece abierta a nuevas fuentes, correcciones y actualizaciones.
 
@@ -20,10 +20,10 @@ Documentación principal:
 - [Catálogo maestro de fuentes](docs/CATALOGO_DE_FUENTES_DE_DATOS.md)
 - [Anexo latinoamericano verificado](docs/ANEXO_FUENTES_LATINOAMERICA_VERIFICADAS.md)
 
-## Política Open Data First
+## Política de prioridad para datos abiertos
 
 Una fuente solo puede integrar el núcleo cuando su reutilización es abierta y reproducible. Se evalúan acceso anónimo, licencia, metadatos, productor, versión, resolución, metodología, formatos y funcionamiento técnico.
 
-La gratuidad no equivale a apertura. Un portal puede ser VERDE-PORTAL mientras sus datasets individuales permanecen en revisión.
+La gratuidad no equivale a apertura. Un portal puede ser VERDE-PORTAL mientras sus conjuntos de datos individuales permanecen en revisión.
 
 > Estado actual: arquitectura inicial y catálogo de Córdoba en consolidación auditable.
