@@ -20,10 +20,19 @@ Documentación principal:
 - [Catálogo maestro de fuentes](docs/CATALOGO_DE_FUENTES_DE_DATOS.md)
 - [Anexo latinoamericano verificado](docs/ANEXO_FUENTES_LATINOAMERICA_VERIFICADAS.md)
 
+## Piloto de incendios forestales en Córdoba
+
+El primer módulo funcional transforma datos abiertos y conocimiento operacional verificado en apoyo trazable a la decisión pública.
+
+- [Modelo de decisión para incendios forestales en Córdoba](docs/MODELO_DECISION_INCENDIOS_CORDOBA.md)
+- [Matriz de reglas de decisión](data/MATRIZ_REGLAS_DECISION_INCENDIOS_CORDOBA.csv)
+
+Las reglas se separan de la inteligencia artificial: la IA puede explicar resultados, pero no inventar umbrales, tácticas ni procedimientos. Cada regla debe conservar fuente, nivel de evidencia, condiciones de aplicación y limitaciones.
+
 ## Política de prioridad para datos abiertos
 
 Una fuente solo puede integrar el núcleo cuando su reutilización es abierta y reproducible. Se evalúan acceso anónimo, licencia, metadatos, productor, versión, resolución, metodología, formatos y funcionamiento técnico.
 
 La gratuidad no equivale a apertura. Un portal puede ser VERDE-PORTAL mientras sus conjuntos de datos individuales permanecen en revisión.
 
-> Estado actual: arquitectura inicial y catálogo de Córdoba en consolidación auditable.
+> Estado actual: arquitectura inicial, catálogo de Córdoba integrado y primer modelo de decisión para incendios en desarrollo auditable.
