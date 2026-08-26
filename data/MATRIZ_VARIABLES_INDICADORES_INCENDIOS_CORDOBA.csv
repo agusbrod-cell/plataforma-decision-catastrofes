@@ -1,0 +1,29 @@
+variable_id,salida,dimension,variable,tipo_origen,unidad_o_clase,normalizacion_inicial,criticidad_del_dato,decision_que_apoya,tratamiento_si_falta,estado
+VAR-001,CSA,peligro,FWI provincial,dato_abierto,clase oficial,usar clase oficial vigente,alta,preparación y contexto de peligro,reducir CE y advertir falta,PENDIENTE-VALIDACION
+VAR-002,CSA,peligro,viento,dato_abierto,km/h,distribución local o clase oficial,alta,evolución potencial y exposición,reducir CE,PENDIENTE-VALIDACION
+VAR-003,CSA,peligro,humedad relativa,dato_abierto,porcentaje,distribución local o componente oficial,media,contexto de peligro,reducir CE,PENDIENTE-VALIDACION
+VAR-004,CSA,territorio,pendiente,dato_abierto,porcentaje o grados,función continua local a validar,media,propagación y post-incendio,marcar desconocido si capa no disponible,PENDIENTE-VALIDACION
+VAR-005,CSA,exposicion,población potencialmente expuesta,dato_abierto/persona institucional,personas,escala territorial a validar,critica,prioridad socioambiental,limitar conclusión y solicitar dato,PENDIENTE-VALIDACION
+VAR-006,CSA,exposicion,infraestructura sensible,dato_abierto/persona institucional,presencia y tipo,no compensatoria por bandera,critica,protección de servicios esenciales,activar incertidumbre si inventario incompleto,PENDIENTE-VALIDACION
+VAR-007,CSA,vulnerabilidad,interfase urbano-forestal,dato_abierto/GIS,clase o presencia,cartografía oficial/local,alta,prioridad poblacional,marcar cobertura no disponible,PENDIENTE-VALIDACION
+VAR-008,CSA,territorio,acceso o egreso único,GIS/persona institucional,booleano o número de alternativas,bandera crítica candidata,critica,continuidad de acceso y evaluación de evacuación,solicitar validación local,PENDIENTE-VALIDACION
+VAR-009,CSA,ambiente,bosque nativo afectado,GIS,intersección/categoría,regla legal y sensibilidad,alta,prioridad ambiental y recuperación,advertir si capa desactualizada,PENDIENTE-VALIDACION
+VAR-010,CSA,ambiente,área protegida o ecosistema sensible,GIS,intersección/categoría,bandera ambiental candidata,alta,protección ambiental y post-incendio,advertir cobertura,PENDIENTE-VALIDACION
+VAR-011,CSA,ambiente,cuenca o captación de agua expuesta,GIS/persona institucional,intersección/proximidad,bandera crítica candidata,critica,agua y salud pública,solicitar dato de captación si no es abierto,PENDIENTE-VALIDACION
+VAR-012,SR,recursos,personal operativo disponible,persona institucional,cantidad,no inferir desde dotación nominal,alta,suficiencia de respuesta,mostrar capacidad desconocida,PENDIENTE-VALIDACION
+VAR-013,SR,recursos,medios hídricos disponibles,persona institucional,cantidad/capacidad,no calcular suficiencia sin necesidad validada,alta,logística hídrica,mostrar disponibilidad declarada,PENDIENTE-VALIDACION
+VAR-014,SR,recursos,maquinaria disponible,persona institucional,cantidad/tipo,no calcular suficiencia sin necesidad validada,media,logística y apoyo,mostrar disponibilidad declarada,PENDIENTE-VALIDACION
+VAR-015,SR,logistica,accesibilidad operativa,GIS/persona institucional,estado de vías,perfil de brecha,alta,movilidad y sostenimiento,solicitar observación local,PENDIENTE-VALIDACION
+VAR-016,SR,gobernanza,coordinación interáreas,persona institucional,estado ordinal,criterio protocolar a validar,media,comando y articulación,mostrar no informado,PENDIENTE-VALIDACION
+VAR-017,SR,sostenimiento,capacidad de relevo y continuidad,persona institucional,horas/estado,criterio protocolar a validar,media,sostenimiento temporal,mostrar no informado,PENDIENTE-VALIDACION
+VAR-018,CE,calidad,actualidad de la fuente,metadato,edad del dato,función según vigencia por variable,alta,confianza del análisis,reducir CE,PENDIENTE-VALIDACION
+VAR-019,CE,calidad,autoridad y trazabilidad,metadato,nivel de fuente,escala de calidad documentada,alta,confianza del análisis,reducir CE,PENDIENTE-VALIDACION
+VAR-020,CE,calidad,resolución espacial y temporal,metadato,metros/horas/días,adecuación a la decisión,media,confianza del análisis,reducir CE si material,PENDIENTE-VALIDACION
+VAR-021,CE,calidad,completitud de variables críticas,sistema,porcentaje/estado,regla no compensatoria,critica,habilitar o limitar conclusiones,CE no puede ser alta,PENDIENTE-VALIDACION
+VAR-022,CE,calidad,consistencia entre fuentes,sistema,estado de concordancia,regla de discrepancia a validar,media,confianza y auditoría,mostrar conflicto,PENDIENTE-VALIDACION
+VAR-023,RC,hidrologia,área quemada conectada a cuenca,GIS,intersección/conectividad,regla causal,alta,alerta hidrológica post-incendio,marcar evaluación incompleta,PENDIENTE-VALIDACION
+VAR-024,RC,hidrologia,precipitación posterior,dato_abierto,mm/intensidad,usar pronóstico y método local validado,alta,crecidas/erosión/remoción,reducir CE del RC,PENDIENTE-VALIDACION
+VAR-025,RC,suelo,pendiente post-incendio,GIS,porcentaje o grados,modelo local a validar,alta,erosión y remoción,marcar evaluación incompleta,PENDIENTE-VALIDACION
+VAR-026,RC,agua,captación o abastecimiento aguas abajo,GIS/persona institucional,presencia/conectividad,bandera de cascada candidata,critica,monitoreo de agua y continuidad del servicio,solicitar validación local,PENDIENTE-VALIDACION
+VAR-027,RC,social,población aguas abajo o dependiente del servicio,GIS/persona institucional,personas,escala territorial a validar,alta,priorización post-incendio,limitar conclusión,PENDIENTE-VALIDACION
+VAR-028,RC,ecosistema,regeneración y sensibilidad ecológica,dato_abierto/monitoreo,categoría,diagnóstico ecológico no automático,media,restauración y monitoreo,indicar necesidad de evaluación de campo,PENDIENTE-VALIDACION
